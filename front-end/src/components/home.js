@@ -1,12 +1,13 @@
 import { Component } from "react";
 import Profile from "../img/profile.JPEG";
+import BoardList from "./boardlist";
 
 class Home extends Component {
   render() {
     return (
       <div className="flex gap-10">
         <div className="border w-[70%]">
-          <h1>메인</h1>
+          <BoardList />
         </div>
         <div className="border w-[30%]">
           <div className="grid grid-cols-2 items-center">

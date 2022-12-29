@@ -14,7 +14,7 @@ class Nav extends Component {
               블로그 홈
             </Link>{" "}
             |{" "}
-            <Link to="/" className="hover:text-black">
+            <Link to="/write" className="hover:text-black">
               글쓰기
             </Link>
           </div>
