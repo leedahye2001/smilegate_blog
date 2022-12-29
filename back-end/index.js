@@ -11,8 +11,9 @@ const db = mysql.createPool({
 });
 
 app.get("/", (req, res) => {
-  const sqlQuery = "INSERT INTO requested (rowno) VALUES (1)";
+  const sqlQuery = "INSERT INTO requested (rowno) VALUES (2)";
   db.query(sqlQuery, (err, result) => {
+    console.log(err);
     res.send("success!");
   });
 });
