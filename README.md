@@ -7,7 +7,7 @@
 ## 기술스택
 
 - react 18.2.0
-- Express
+- Node.js
 - MYSQL
 
 ## 프로젝트 구조
